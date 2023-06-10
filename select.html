@@ -1,0 +1,132 @@
+<!doctype html>
+							
+
+<html>
+	<head>
+		<title>Anime9H</title>
+	</head>
+	<body>
+		
+		
+		<fieldset>
+			<legend align="center"><h1>SINUP A<em>nime</em>9H</h1></legend>
+			<form>
+				
+				<label for="genre">select your Genre</label>
+				<select name="choses" id="genre" required="required">
+					<option value="">select your Genre </option>
+					<option value="anime"> Anime </option>
+					<option value="manga"> Manga </option>
+					<option value="manhwa">Manhwa </option>
+					<option value="manhua"> Manhua </option>
+				</select>
+				</br>
+				
+				
+				<label for="your-name">NAME</label><br/>
+				<input type="text" id="your-name" name="your-name" value="" placeholder="Your Name" size="50" required="required" autofocus="autofocus" list="data_list"/>*
+				
+				<br/><br/>
+				
+				<p align="top"><label for="father-name">Father Name</label></p>
+				<input type="text" id="father-name" name="father-name" value="" placeholder="Father Name" required="required" list="data_list"/>*
+				
+								
+				<label for="mother-name">Mother Name</label>
+				<input type="text" id="mother-name" name="mother-name" value="" placeholder="Mother Name" required="required" />*
+				
+				<br/><br/>
+				
+				 <label for="nid">NID</label>
+				<input type="number" id="nid" name="nid" value="" placeholder="National ID" required="required" min="0" max="10"/>*
+				
+				
+				
+				<label for="date-of-birth">Date Of Birth</label>
+				<input type="date" id="date-of-birth" name="date-of-birth" value="" placeholder="Date Of Birth" required="required" />*
+				
+				<label for="age">Age</label>
+				<input type="number" id="age" name="age" value="" placeholder="Age" required="required" min="0" maxlength="999" step="10"/>*
+				<br/>
+				<br/>
+				<label>SEX</label>
+				<input type="radio" id="male" name="esx" required="required" value="male"/><label for="male">Male</label>
+				<input type="radio" id="female" name="esx" required="required" value="female"/><label for="female">Female</label>
+				<input type="radio" id="other" name="esx" required="required" value="other"/><label for="other">Other</label>*
+				
+				 <br/><br/>
+				 
+				 <label for="mobile">Mobile</label>
+				<input type="tel" id="mobile" name="mobile" value="" placeholder="Mobile" required="required" maxlength="15" pattern="[0-9]{4}-[0-9]{3}-[0-9]{6}"/>*
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" value="" placeholder="Email" required="required" />*
+				
+				<br/><br/>
+				<h2>PRESENT ADDRASS</h2>
+				<hr/>
+				
+				
+				<label for="present">Present</label>
+				<input type="taxt" id="present" name="present" value="" placeholder="present" required="required" size="90%"/>*
+				
+				<br/><br/>
+				
+				
+				<label for="city">City</label>
+				<input type="taxt" id="city" name="city" value="" placeholder="City" required="required" />*
+				
+				<label for="post_code">Post Code</label>
+				<input type="number" id="post_code" name="post_code" value="" placeholder="Post Code" required="required" maxlength="4"/>*
+				
+				
+				
+				</hr>
+				
+				<label>Anime Lover</label>
+				<input type="radio" id="yes" name="anime" required="required" value="yes"/><label for="yes">Yes</label>
+				<input type="radio" id="no" name="anime" required="required" value="no"/><label for="no">No</label>*
+				
+				<hr/>
+				
+				<label>Anime Lover</label>
+				<input type="checkbox" id="yes" name="anime"  value="anime"/><label for="anime">anime</label>
+				<input type="checkbox" id="manga" name="anime"  value="manga"/><label for="manga">manga</label>
+				<input type="checkbox" id="manhwa" name="anime"  value="manhwa"/><label for="manhwa">manhwa</label>
+				<input type="checkbox" id="manhua" name="anime"  value="manhua"/><label for="manhua">manhua</label>
+				
+				<hr/>
+				 <label for="FROFILE_PHOTO">FROFILE PHOTO</label>
+				<input type="file" name="FROFILE_PHOTO" id="FROFILE_PHOTO" value="" accept="image/*" multiple="multiple"  required="required"/>*
+				
+				<hr/>
+					
+					<p align="top"><label>Write Your Favert Anime</label></p>
+					<textarea name="comment" required="required" rows="20" cols="50" min="100" max="150" ></textarea>
+					
+				
+				<hr/>
+				
+				<input type="reset" value="reset"/>
+				<input type="submit" value="Submit"/>
+				
+				
+				 
+				 <!--
+				 <p align="top"><label for=""></label></p><br/>
+				<input type="" id="" name="" value="" placeholder="" required="required" autofocus="autofocus"/>
+				<label for=""></label>
+				<input type="" id="" name="" value="" placeholder="" required="required" />
+				 <br/><br/>
+				 -->
+			</form>
+			</fieldset>
+			
+			<datalist id="data_list">
+			<option value="011"/>
+			<option value="013"/>
+			<option value="015"/>
+			<option value="001"/>
+			</datalist>
+	</body>
+</html>
